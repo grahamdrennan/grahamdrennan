@@ -1,0 +1,163 @@
+.column{
+    float: left;
+    padding: 10px;
+    height: contain;
+}
+.left{width: 30vw;
+}
+.right{
+    padding-left: 10%;
+    padding-right: 0px;
+    max-width:60vw;
+    max-height: 80vh;
+    padding-top: 50px;
+    height: 75%;
+    object-fit: contain;
+    
+}
+
+
+.w3-display-container {
+    
+    max-width: 60%;
+    max-height: auto;
+    align-content: center;
+    
+}
+ul {
+    list-style-type: none;
+    margin-left: 33%;
+    padding: 0;
+
+    line-height: 25px;
+    font-family: Montserrat;
+    font-size: 20px;
+    border-bottom: 0px;
+    
+}
+dl {
+    
+    font-family: Montserrat;
+    list-style-type: none;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    padding: 10px;
+    
+    
+}
+.Area{
+    font-size: 25px;
+    list-style-type: none;
+    line-height: 5px;
+    
+}
+
+.specific {
+    margin-left: 30px;
+    font-size: 17px;
+    list-style-type: none;
+    line-height: 18px;
+}
+.description {
+    margin-left: 30px;
+    font-size: 15px;
+    list-style-type: none;
+    line-height: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+span {
+    
+    margin-right; 0px;
+}
+.one{
+    margin-left: 300px;
+}
+.two {
+    margin-left: 360px;
+}
+.three{
+    margin-left: 345px;
+}
+.four{
+    margin-left: 438px;
+}
+.five{
+    margin-left: 384px;
+}
+.six{
+    margin-left: 214px;
+}
+.seven{
+    margin-left: 416px;
+}
+.eight{
+    margin-left: 245px;
+}
+.nine{
+    margin-left: 261px;
+}
+.ten{
+    margin-left: 223px;
+}
+.small{
+    font-size: 20px;
+    
+    border-bottom: 0px;
+    line-height: 25px;
+    margin-top: 5px;
+    
+}
+li {
+    margin: 0;
+    padding: 5px;
+    margin-bottom: 0px;
+    //border-bottom: 1px solid;//
+    border-bottom-color: black;
+
+}
+h1 {
+    font-family: Montserrat;
+    font-style: bold;
+    font-size: 45px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.mySlides {
+    max-width: 60vw;
+    max-height: 80vh;
+    float: center;
+    object-fit: contain;
+}
+.w3-display-right {
+    padding-right: 50%;
+}
+.w3-button:hover {
+    color:white;
+    background-color: white;
+}
+.pic {
+    max-height: 80vh;
+    max-width: 100%;
+    object-fit: contain;
+}
+h3 {
+    font-family: Montserrat;
+    font-size: 100px;
+    
+}
+p1{
+    font-family: Montserrat;
+    font-size:45px;
+}
+p2 {
+    font-family: Montserrat;
+    font-size: 
+}
+.resume{
+    margin-top: 10%;
+}

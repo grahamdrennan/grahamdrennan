@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GRAHAM DRENNAN</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+</style>
+<body>
+    <div class="row">
+    <div class= "column left">
+        <p1 font-family="Montserrat"> <a href=./index.html><strong>GRAHAM DRENNAN</strong></a> </p1>
+        <ul>
+            <li><a href= ./resume.html>RESUME</a></li>
+            <li><a href= ./arch.html>ARCHITECTURE</a></li>
+            <li><a href= ./art.html>DRAWING AND PAINTING</a></li>
+            <li><a href= ./modeling.html>MODELING</a></li>
+            
+        </ul>
+        <ul class= "small">
+            <li class= "small"><a href= ./contact.html>CONTACT</a></li>
+        </ul>
+        
+        </div>
+    <div class="column right">
+        <div class="w3-content w3-display-container">
+        
+            <div class="mySlides">
+            <img class="pic" src="pics/ARCH/CHAIR 1.jpeg" style=width: 100%>
+            <br>
+                <p2>Chair 1</p2>
+            </div>
+        
+        
+            <div class= "mySlides">
+            <img class="pic"  src="pics/ARCH/CHAIR 2.jpeg" style=width: 100%>
+                <br>
+                <p2>Chair 2</p2>
+            </div>
+      
+        
+            <div class="mySlides">
+            <img class="pic" src="pics/ARCH/CHAIR 3.jpeg" style=width: 100%>
+                <br>
+                <p2>Chair 3</p2>
+            </div>
+    
+            
+        <button class ="w3-button w3-display-left" onclick= "plusDivs(-1)">&#10094;</button>
+        <button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+        </div>
+
+        <script>
+        var slideIndex =1;
+            showDivs(slideIndex);
+            
+        function plusDivs(n){
+            showDivs(slideIndex +=n);
+        }
+        function showDivs(n){
+            var i;
+            var x= document.getElementsByClassName("mySlides");
+            if(n > x.length){slideIndex =1}
+            if (n<1) {slideIndex = x.length};
+            for (i=0; i<x.length; i++){
+                x[i].style.display ="none";
+                
+            }
+            x[slideIndex-1].style.display = "block";
+        }
+        </script>
+        </div>
+    </div>
+
+
+
+</body>
+</html>
+
+

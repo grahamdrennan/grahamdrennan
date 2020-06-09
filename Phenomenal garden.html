@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GRAHAM DRENNAN</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<body>
+
+<style>
+.mySlides {display:none;}
+</style>
+<body>
+    <div class="row">
+    <div class= "column left">
+        <p1 font-family="Montserrat"> <a href=./index.html><strong>GRAHAM DRENNAN</strong></a> </p1>
+        <ul>
+            <li><a href= ./resume.html>RESUME</a></li>
+            <li><a href= ./arch.html>ARCHITECTURE</a></li>
+            <li><a href= ./art.html>DRAWING AND PAINTING</a></li>
+            <li><a href= ./about.html>ABOUT</a></li>
+            
+        </ul>
+        <ul class= "small">
+            <li class= "small"><a href= ./contact.html>CONTACT</a></li>
+        </ul>
+        
+        </div>
+    <div class="column right">
+		
+	<br>
+	<br>
+	<br>
+		
+   <div class="w3-display-container mySlides">
+        <img src="pics/ARCH/Phenomenal Garden/GARDEN 2-2.jpg" style="width:100%">
+         <button class="w3-button w3-right" onclick="plusDivs(-1)">&#10095;</button>
+
+  		<div class=" w3-button w3-right w3-Montserrat w3-white w3-hover-white">
+   		 1/5
+    
+			</div>			
+			
+  		<button class="w3-button w3-right" onclick="plusDivs(1)">&#10094;</button>
+	</div>
+     
+		
+		
+    <div class="w3-display-container mySlides">
+        <img src="pics/ARCH/Cards/phenomenal garden.jpg" style="width:100%">
+         <button class="w3-button w3-right" onclick="plusDivs(-1)">&#10095;</button>
+
+  		<div class=" w3-button w3-right w3-Montserrat w3-white w3-hover-white">
+   		 2/5
+    
+			</div>			
+			
+  		<button class="w3-button w3-right" onclick="plusDivs(1)">&#10094;</button>
+	</div> 
+           
+		
+   <div class="w3-display-container mySlides">
+        <img src="pics/ARCH/Phenomenal Garden/GARDEN 1-2.jpg" style="width:100%">
+         <button class="w3-button w3-right" onclick="plusDivs(-1)">&#10095;</button>
+
+  		<div class=" w3-button w3-right w3-Montserrat w3-white w3-hover-white">
+   		 3/5
+    
+			</div>			
+			
+  		<button class="w3-button w3-right" onclick="plusDivs(1)">&#10094;</button>
+	</div>
+     
+		
+		
+    <div class="w3-display-container mySlides">
+        <img src="pics/ARCH/Phenomenal Garden/GARDEN REAR-2.jpg" style="width:100%">
+         <button class="w3-button w3-right" onclick="plusDivs(-1)">&#10095;</button>
+
+  		<div class=" w3-button w3-right w3-Montserrat w3-white w3-hover-white">
+   		 4/5
+    
+			</div>			
+			
+  		<button class="w3-button w3-right" onclick="plusDivs(1)">&#10094;</button>
+	</div> 
+		
+			
+   <div class="w3-display-container mySlides">
+        <img src="pics/ARCH/Phenomenal Garden/PERSPECTIVE VIEW-2-2.jpg" style="width:100%">
+   		<div class=" w3-button w3-left w3-Montserrat w3-white w3-hover-white">
+   		 Revit Model
+    
+			</div>	       
+	   <button class="w3-button w3-right" onclick="plusDivs(-1)">&#10095;</button>
+
+  		<div class=" w3-button w3-right w3-Montserrat w3-white w3-hover-white">
+   		 5/5
+    
+			</div>			
+			
+  		<button class="w3-button w3-right" onclick="plusDivs(1)">&#10094;</button>
+	</div>
+     
+		
+		
+   
+		
+		
+		
+        <script>
+        var slideIndex =1;
+            showDivs(slideIndex);
+            
+        function plusDivs(n){
+            showDivs(slideIndex -=n);
+        }
+        function showDivs(n){
+            var i;
+            var x= document.getElementsByClassName("mySlides");
+            if(n > x.length){slideIndex =1}
+            if (n<1) {slideIndex = x.length};
+            for (i=0; i<x.length; i++){
+                x[i].style.display ="none";
+                
+            }
+            x[slideIndex-1].style.display = "block";
+        }
+        </script>
+        </div>
+    </div>
+
+
+
+</body>
+</html>
+
